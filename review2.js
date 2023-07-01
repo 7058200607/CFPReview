@@ -9,12 +9,10 @@ function AddTwoNumber(number1, number2) {
             resolve(sum);
         }
     });
-
 }
-AddTwoNumber(-5, -10)
+AddTwoNumber(15, 10)
     .then(function (result) {
         console.log(result);
-
     })
     .catch(function (error) {
         console.log(error)
